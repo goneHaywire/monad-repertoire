@@ -15,7 +15,7 @@ const Identity = val => ({
 });
 
 // equivalent to each other
-Identity.prototype.of = (val) => Identity(val);
-Identity.prototype.unit = (val) => Identity(val);
+Identity.of = (val) => Identity(val);
+Identity.unit = (val) => Identity(val);
 
 export Identity;
